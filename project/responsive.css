@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: ltr;
+}
+@font-face
+{
+    font-family: insta;
+    src: url(Instagram{@FONTBARTAR}.ttf);
+}
+.web-header-section
+{
+    background-image: linear-gradient( 116.9deg,  rgba(232,10,116,1) -9.3%, rgba(244,79,79,1) 77.3% );
+    height: 721px;
+}
+@media screen and (max-width: 992px) {
+    .web-header-section
+    {
+    height: 1121px;
+    }
+}
+.navbar-nav a
+{
+    color: rgba(240, 248, 255, 0.774);
+    margin-left: 8px;
+}
+@media screen and (min-width: 992px) {
+    .web-landing-section img
+    {
+        margin-right: -10px !important;
+        width: 490px !important;
+    }
+}
+.navbar-nav a:hover
+{
+    color: white;
+}
+.web-landing-section h6
+{
+    letter-spacing: 6px;
+}
+.web-landing-section img
+{
+    width: 500px;
+    margin-top: 0px;
+}
+#web-landing-left
+{
+    margin-top: 180px;
+}
+#web-landing-left button
+{
+    border-radius: 20px;
+}
+/* @media screen and (min-width: 1200px)
+{
+    .about-text-box
+    {
+        position: absolute;
+        background-color: white;
+        top: 190px !important;
+        margin-left: -200px;
+    }
+} */
+@media screen and (min-width: 992px)
+{
+    .about-text-box
+    {
+        position: absolute;
+        background-color: white;
+        top: 100px !important;
+        margin-left: -120px;
+    }
+}
+@media screen and (max-width: 576px)
+{
+    .about-text-box
+    {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 576px)
+{
+    #web-blog-right
+    {
+        padding-right: 35px;
+    }
+}
+.web-shadow {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+}
+.web-feature-section
+{
+    background-image: url(images/pexels-photo-452738.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: 0px -120px ;
+}
+.cover
+{
+    height: 350px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.658);
+    position: absolute;
+}
+.web-feature-boxs
+{
+    margin-top: -110px;
+}
+.web-counter-item
+{
+    padding: 30px;
+    background-color: white;
+}
+.web-counter-number
+{
+    font-size: 50px;
+    color: #ff6347;
+}
+.web-shadow1 {
+	box-shadow: 0 5px 20px rgba(255, 0, 0, 0.7);
+}
+
+/**********************************************************/
+
+.web-products-section h2
+{
+    font-family: insta;
+    font-size: 40px;
+}
+#products-price
+{
+    border: 1px solid #dfdfdf;
+    width: 50% !important;
+}
+#products-price h6
+{
+    background-color: #f6fcfc;
+    padding: 10px 0px;
+}
+.products-price-box
+{
+    background-color: #f6fcfc;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.products-price-box p
+{
+    font-size: 40px;
+}
+.web-download-section
+{
+    background-image: linear-gradient( 116.9deg,  rgba(232,10,116,1) -9.3%, rgba(244,79,79,1) 77.3% );
+}
+.web-about-us-section a:hover
+{
+    border: 1px solid white !important;
+}
+.web-about-us-section a.active
+{
+    border: 1px solid white !important;
+    margin-top: 20px;
+}
+.web-footer-section
+{
+    background-color: #2f2f2f;
+}
+.web-footer-section input
+{
+    background-color: #343a40;
+    border: 0;
+    padding: 4px 10px;
+}
+.web-footer-section button
+{
+    background-image: linear-gradient( 116.9deg,  rgba(232,10,116,1) -9.3%, rgba(244,79,79,1) 77.3% );
+    border: 0px;
+    margin-left: -5px;
+    color: #343a40;
+    padding: 4px 8px;
+}
